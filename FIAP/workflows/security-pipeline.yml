@@ -1,1 +1,15 @@
-"name: Security Scan\non: [push]\njobs:\n  scan:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo 'Security scan placeholder'" 
+name: Security Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+
+      - name: Rodar Trivy (scan de vulnerabilidades)
+        run: echo "Simulação de scan de segurança com Trivy"

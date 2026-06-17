@@ -1,1 +1,23 @@
-"# OpenTelemetry Collector Config\napiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: otel-collector-conf" 
+# OpenTelemetry Collector Config
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: otel-collector-conf
+data:
+  otel-collector-config: |
+    receivers:
+      otlp:
+        protocols:
+          grpc:
+          http
+    exporters:
+      prometheus:
+      loki:
+    service:
+      pipelines:
+        metrics:
+          receivers: [otlp]
+          exporters: [prometheus]
+        logs:
+          receivers: [otlp]
+          exporters: [loki]

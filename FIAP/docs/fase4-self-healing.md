@@ -4,12 +4,10 @@ Este documento descreve a automação de resposta a incidentes.
 
 ## Alertas Inteligentes
 - Configuração de alertas no Prometheus.
-- Integração com PagerDuty ou OpsGenie.
+
+![Alerta Prometheus](./prints/prometheus-alert.png)
 
 ## Automação
 - Workflow `self-healing.yml` reinicia serviços automaticamente.
-- Exemplo: restart do `auth-service` em caso de falha.
 
-## Evidências
-- Prints de alertas disparados.
-- Logs de execução do workflow de correção.
+![Execução Workflow](./prints/self-healing-pipeline.png)

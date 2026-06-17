@@ -1,1 +1,4 @@
-"# Loki Config\nloki:\n  persistence:\n    enabled: false" 
+# Loki Config
+loki:
+  persistence:
+    enabled: false

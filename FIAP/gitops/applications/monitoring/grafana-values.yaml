@@ -1,1 +1,5 @@
-"# Grafana Config\nadminUser:\n  password: grafana" 
+# Grafana Config
+adminUser:
+  password: grafana
+persistence:
+  enabled: false

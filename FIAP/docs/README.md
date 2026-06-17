@@ -8,9 +8,9 @@ Esta pasta contém os relatórios e evidências da Fase 4 do Tech Challenge FIAP
 - **fase4-self-healing.md** → Alertas inteligentes e automação de recuperação.
 
 ## Evidências
-Os prints utilizados nos relatórios estão armazenados na subpasta `prints/`.
+Os prints utilizados nos relatórios devem ser armazenados na subpasta `prints/`.
 
-Exemplos de evidências que devem ser incluídas:
+Exemplos de evidências:
 - Dashboards de métricas (Prometheus/Grafana).
 - Logs centralizados (Loki).
 - Traces distribuídos (Datadog/New Relic).

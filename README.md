@@ -52,3 +52,29 @@ Este repositório contém a entrega da **Fase 4** do Pós-Tech FIAP, cobrindo:
 cd terraform/vpc && terraform init && terraform apply
 cd terraform/eks && terraform init && terraform apply
 cd terraform/rds && terraform init && terraform apply
+
+2. GitOps
+Aplicar manifests via ArgoCD.
+
+Configurações de Prometheus, Grafana, Loki e OTel Collector estão em gitops/applications/monitoring.
+
+3. Workflows
+CI/CD: build e deploy automático.
+
+Security: scan de vulnerabilidades.
+
+Self-Healing: reinício automático de serviços em caso de falha.
+
+4. Instrumentation
+Exemplo em Go (auth-service/main.go) com OpenTelemetry:
+go run instrumentation/auth-service/main.go
+
+5. Documentação
+Relatórios e prints estão em docs/.
+
+📊 Evidências
+Dashboards de métricas e logs (Prometheus/Grafana).
+
+Traces distribuídos (Datadog/New Relic).
+
+Alertas e workflows de correção (PagerDuty/OpsGenie).

@@ -1,1 +1,1 @@
-# Configura‡Æo Loki via Helm 
+"# Loki Config\nloki:\n  persistence:\n    enabled: false" 

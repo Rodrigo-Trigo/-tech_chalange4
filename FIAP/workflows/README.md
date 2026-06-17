@@ -1,0 +1,1 @@
+"# Workflows\n\nEsta pasta cont‚m os pipelines do GitHub Actions.\n- **ci-cd-pipelines.yml**: build e deploy.\n- **security-pipeline.yml**: an lise de seguran‡a.\n- **self-healing.yml**: automa‡Æo de resposta a incidentes." 

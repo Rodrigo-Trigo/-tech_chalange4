@@ -1,1 +1,1 @@
-# Pipeline CI/CD 
+"name: CI/CD\non: [push]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v2" 

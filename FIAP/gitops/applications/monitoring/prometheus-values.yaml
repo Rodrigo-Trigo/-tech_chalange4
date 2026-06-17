@@ -1,1 +1,1 @@
-# Configura‡Æo Prometheus via Helm 
+"# Prometheus Config\nserver:\n  persistentVolume:\n    enabled: false" 

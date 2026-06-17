@@ -1,0 +1,1 @@
+"# Terraform\n\nEsta pasta cont‚m os m¢dulos de infraestrutura como c¢digo.\n- **vpc/**: configura‡Æo da rede VPC.\n- **eks/**: cria‡Æo do cluster Kubernetes (EKS).\n- **rds/**: banco de dados relacional (Postgres).\n\nCada subpasta possui um `main.tf` com os recursos correspondentes." 

@@ -1,0 +1,1 @@
+"# GitOps\n\nAqui ficam os manifests e Helm charts aplicados via ArgoCD.\n- **applications/**: microsservi‡os e stack de observabilidade.\n- **monitoring/**: Prometheus, Grafana, Loki e OpenTelemetry Collector." 

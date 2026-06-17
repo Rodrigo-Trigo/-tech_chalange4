@@ -1,1 +1,1 @@
-# Pipeline de Seguran‡a 
+"name: Security Scan\non: [push]\njobs:\n  scan:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo 'Security scan placeholder'" 

@@ -1,1 +1,1 @@
-# Configura‡Æo OpenTelemetry Collector 
+"# OpenTelemetry Collector Config\napiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: otel-collector-conf" 

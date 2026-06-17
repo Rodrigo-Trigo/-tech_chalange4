@@ -1,1 +1,12 @@
-"name: Self-Healing\non:\n  repository_dispatch:\n    types: [alert-trigger]\njobs:\n  restart:\n    runs-on: ubuntu-latest\n    steps:\n      - run: kubectl rollout restart deployment/auth-service" 
+name: Self-Healing Workflow
+
+on:
+  repository_dispatch:
+    types: [alert-trigger]
+
+jobs:
+  restart-service:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reiniciar Auth Service
+        run: kubectl rollout restart deployment/auth-service

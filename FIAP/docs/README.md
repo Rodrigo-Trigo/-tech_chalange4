@@ -1,13 +1,17 @@
 # Documentação Fase 4
 
-Esta pasta contém os relatórios e evidências da Fase 4 do Pós-Tech.
+Esta pasta contém os relatórios e evidências da Fase 4 do Tech Challenge FIAP.
 
 ## Estrutura
 - **fase4-monitoramento.md** → Configuração de Prometheus, Grafana e Loki.
 - **fase4-apm-tracing.md** → Instrumentação com OpenTelemetry e integração com APM.
 - **fase4-self-healing.md** → Alertas inteligentes e automação de recuperação.
 
-Cada documento deve incluir:
-- Explicações técnicas
-- Prints de dashboards e pipelines
-- Evidências de funcionamento
+## Evidências
+Os prints utilizados nos relatórios estão armazenados na subpasta `prints/`.
+
+Exemplos de evidências que devem ser incluídas:
+- Dashboards de métricas (Prometheus/Grafana).
+- Logs centralizados (Loki).
+- Traces distribuídos (Datadog/New Relic).
+- Execução dos workflows (CI/CD, Security, Self-Healing).

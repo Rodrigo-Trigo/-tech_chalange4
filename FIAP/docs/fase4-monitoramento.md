@@ -1,19 +1,19 @@
 # Monitoramento
 
-Este documento descreve a configuração da stack de observabilidade:
+Este documento descreve a configuração da stack de observabilidade.
 
 ## Prometheus
 - Coleta métricas de aplicações e cluster.
-- Configurado via Helm Chart com `prometheus-values.yaml`.
+- Configurado via Helm Chart.
+
+![Print Prometheus](./prints/prometheus-metrics.png)
 
 ## Grafana
 - Visualização de métricas e dashboards.
-- Configurado via Helm Chart com `grafana-values.yaml`.
+
+![Dashboard Grafana](./prints/grafana-dashboard.png)
 
 ## Loki
 - Centralização de logs.
-- Configurado via Helm Chart com `loki-values.yaml`.
 
-## Evidências
-- Prints dos dashboards de métricas.
-- Logs coletados e visualizados no Grafana.
+![Logs Loki](./prints/loki-logs.png)

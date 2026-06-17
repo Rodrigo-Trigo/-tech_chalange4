@@ -68,6 +68,7 @@ Self-Healing: reinício automático de serviços em caso de falha.
 
 4. Instrumentation
 Exemplo em Go (auth-service/main.go) com OpenTelemetry:
+
 ```go run instrumentation/auth-service/main.go```
 
 5. Documentação

@@ -1,1 +1,11 @@
-"# Terraform\n\nEsta pasta contÇm os m¢dulos de infraestrutura como c¢digo.\n- **vpc/**: configuraá∆o da rede VPC.\n- **eks/**: criaá∆o do cluster Kubernetes (EKS).\n- **rds/**: banco de dados relacional (Postgres).\n\nCada subpasta possui um `main.tf` com os recursos correspondentes." 
+# Terraform
+
+Esta pasta cont√©m os m√≥dulos de infraestrutura como c√≥digo utilizados na Fase 4.
+
+## Estrutura
+- **vpc/** ‚Üí configura√ß√£o da rede VPC.
+- **eks/** ‚Üí cria√ß√£o do cluster Kubernetes (EKS).
+- **rds/** ‚Üí banco de dados relacional (Postgres).
+
+Cada subpasta possui um `main.tf` com os recursos correspondentes.  
+O objetivo √© provisionar a infraestrutura base para suportar os microsservi√ßos e a stack de observabilidade.

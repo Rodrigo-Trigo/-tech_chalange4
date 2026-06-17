@@ -1,1 +1,6 @@
-"# Prometheus Config\nserver:\n  persistentVolume:\n    enabled: false" 
+# Prometheus Config
+server:
+  persistentVolume:
+    enabled: false
+alertmanager:
+  enabled: true

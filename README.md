@@ -52,6 +52,7 @@ Este repositório contém a entrega da **Fase 4** do Pós-Tech FIAP, cobrindo:
 cd terraform/vpc && terraform init && terraform apply
 cd terraform/eks && terraform init && terraform apply
 cd terraform/rds && terraform init && terraform apply
+```
 
 2. GitOps
 Aplicar manifests via ArgoCD.
@@ -67,7 +68,7 @@ Self-Healing: reinício automático de serviços em caso de falha.
 
 4. Instrumentation
 Exemplo em Go (auth-service/main.go) com OpenTelemetry:
-go run instrumentation/auth-service/main.go
+```go run instrumentation/auth-service/main.go```
 
 5. Documentação
 Relatórios e prints estão em docs/.
